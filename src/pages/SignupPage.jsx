@@ -82,7 +82,7 @@ export default function SignupPage() {
       <div style={{ flex: 1, padding: '0 24px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
 
         {/* Pet illustration */}
-        <div style={{ textAlign: 'center', left: '50%', marginBottom: 24 }}>
+        <div style={{ textAlign: 'center', left: '50%', marginBottom: 150 }}>
           <img src="/sushi.png" alt="pet" style={{ width: 1000, height: 10000, objectFit: 'contain' }} onError={e => { e.target.style.display = 'none' }} />
         </div>
 
